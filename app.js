@@ -12,9 +12,10 @@ function sum(a,b){ //eslint-disable-line
   var total = a + b;
   var message = 'The sum of ' + a + ' and ' + b + ' is ' + total + '.';
   return [total, message];
-
 }
 
+
+// Richards Comments
 // Here is the test for sum(); uncomment it to run it
 testSum(4, 7);
 
